@@ -9,6 +9,6 @@ public class Main {
 
         System.out.println("Luas Lingkaran adalah: " + rl.luasLingkaran(6));
 
-        System.out.println("Mobilnya bermerek " + mb.merek + " model " + mb. model + " keluaran tahun " + mb.tahun);
+        System.out.println("Mobilnya bermerek " + mb.merek + " model " + mb.model + " keluaran tahun " + mb.tahun);
     }
 }
