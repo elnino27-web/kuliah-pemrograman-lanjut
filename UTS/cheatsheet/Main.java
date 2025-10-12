@@ -1,4 +1,4 @@
-package UTS;
+package UTS.cheatsheet;
 
 // Program Java sederhana menampilkan semua konsep OOP dasar
 // Termasuk: class, void, parameter, return, if-else, for, polymorphism, enkapsulasi, pewarisan, konstruktor, operator, dan object
