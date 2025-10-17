@@ -1,8 +1,14 @@
 package UTS.utsnya;
 
 public class Employee extends Person {
-    String employeeId;
-    double salary;
+    private String employeeId;
+    private double salary;
+
+    public Employee(String name, int age, String employeeId, double salary) {
+        super(name, age);
+        this.employeeId = employeeId;
+        this.salary = salary;
+    }
 
     public void setEmployeeId(String employeeId) {
         this.employeeId = employeeId;
@@ -20,9 +26,10 @@ public class Employee extends Person {
         return salary;
     }
 
+    @Override
     public void info() {
-        setName("Basuki");
-        setAge(30);
-        System.out.println("Nama " + getName() + "\n" + "Umur : " + getAge());
+        super.info();
+        System.out.println("Employee ID: " + this.employeeId);
+        System.out.println("Gaji: " + this.salary);
     }
 }
